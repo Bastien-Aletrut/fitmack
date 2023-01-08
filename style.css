@@ -45,7 +45,6 @@ body::-webkit-scrollbar { width: 0 !important }
     color: rgb(255, 255, 255);
     width: 30vw;
     margin-left: 2vw;
-
 }
 #lien-reseau{
     display: flex;
@@ -89,6 +88,15 @@ body::-webkit-scrollbar { width: 0 !important }
 /* nav */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
 
+#fig1{
+    position: fixed;
+    overflow: hidden;
+    position: fixed;
+    margin:0 ; 
+    right: 100px;
+    height: 60px;
+    width: 500px;    
+}
 
 .menu2{
     position: fixed;
@@ -147,7 +155,6 @@ body::-webkit-scrollbar { width: 0 !important }
 
 .menu-nav {
     display: flex;
-    position: fixed;
     top: 0;
     right: 100px;
     height: 60px;
@@ -225,7 +232,6 @@ body::-webkit-scrollbar { width: 0 !important }
     justify-content: space-between;
     margin-left: 40px;
     margin-right: 40px;
-
 }
 #espace2{
     display: flex;
@@ -250,5 +256,6 @@ body::-webkit-scrollbar { width: 0 !important }
     margin: 0;
     
     background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
